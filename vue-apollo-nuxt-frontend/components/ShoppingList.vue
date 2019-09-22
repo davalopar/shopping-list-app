@@ -1,18 +1,18 @@
 <template>
-  <div>
+  <div class="container">
     <InputItem
       v-model="newItem"
       placeholder="New item"
       @keydown.enter="addItem"
     />
-    <ul v-if="items.length">
+    <div v-if="items.length">
       <ShoppingListItem
         v-for="item in items"
         :key="item.id"
         :item="item"
         @remove="removeItem"
       />
-    </ul>
+    </div>
     <p v-else>
       Add a new item in the input above!
     </p>
@@ -137,3 +137,10 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.container {
+  max-width: 400px;
+  line-height: 1.4;
+}
+</style>

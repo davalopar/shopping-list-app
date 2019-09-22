@@ -1,7 +1,7 @@
 {
-  "name": "vueapp",
+  "name": "vue-apollo-nuxt-frontend",
   "version": "1.0.0",
-  "description": "My priceless Nuxt.js project",
+  "description": "Frontend",
   "author": "Davina Adisusila",
   "private": true,
   "scripts": {

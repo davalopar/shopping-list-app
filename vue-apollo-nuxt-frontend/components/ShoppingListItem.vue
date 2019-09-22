@@ -1,10 +1,10 @@
 <template>
-  <li>
+  <div class="item">
     {{ item.name }}
     <button @click="$emit('remove', item.id)">
-      X
+      🗑
     </button>
-  </li>
+  </div>
 </template>
 
 <script>
@@ -17,3 +17,17 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+button {
+  background: white;
+  border: none;
+  padding: 0;
+}
+</style>

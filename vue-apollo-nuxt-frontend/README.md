@@ -6,7 +6,7 @@ This example implements the app with [Nuxt.js](https://nuxtjs.org)
 
 ``` bash
 # install dependencies
-$ npm run install
+$ npm install
 
 # serve with hot reload at localhost:3000
 $ npm run dev

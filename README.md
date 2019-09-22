@@ -1,11 +1,13 @@
 # Shopping list app
 
-## Example app used to play around with:
+![Screenshot](/screenshot.png)
 
-Frontend: Vue, Nuxt.js
+## Example app playing around with:
 
-Backend: Nexus, Prisma, GraphQL Apollo server
+Frontend: TypeScript, Vue, Nuxt.js
+
+Backend: TypeScript, Nexus, Prisma, GraphQL Apollo server, PostgresQL
 
 ## Run app locally
 
-Follow the READMEs in the directories - first the backend then the frontend.
+Follow the READMEs in `nexus-prisma-graphql-apollo-server` then `vue-apollo-nuxt-frontend`

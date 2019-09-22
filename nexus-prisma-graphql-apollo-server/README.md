@@ -1,6 +1,6 @@
 # GraphQL Apollo Server Example
 
-This example implements a **GraphQL server with TypeScript** based on Prisma, [apollo-server](https://www.apollographql.com/docs/apollo-server/) and [GraphQL Nexus](https://graphql-nexus.com/).
+This example implements a **GraphQL server with TypeScript** based on Prisma, [apollo-server](https://www.apollographql.com/docs/apollo-server/) and [GraphQL Nexus](https://graphql-nexus.com/). The DB is PostgresQL.
 
 ## How to use
 
@@ -17,8 +17,11 @@ npm install -g prisma
 #### Docker
 
 Ensure you have Docker installed on your machine. If not, you can get it from [here](https://store.docker.com/search?offering=community&type=edition).
+### 1. Install dependencies
 
-### 1. Set up database & deploy Prisma datamodel
+npm install
+
+### 2. Set up database & deploy Prisma datamodel
 
 1. Run `docker-compose up`
 1. Run `prisma deploy`
@@ -27,7 +30,7 @@ Ensure you have Docker installed on your machine. If not, you can get it from [h
 
 You can now use [Prisma Admin](https://www.prisma.io/docs/prisma-admin/overview-el3e/) to view and edit your data at ``http://localhost:4466/_admin`.
 
-### 2. Start the GraphQL server
+### 3. Start the GraphQL server
 
 Launch the GraphQL server with this command:
 

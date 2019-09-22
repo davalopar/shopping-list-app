@@ -22,3 +22,13 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.input {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #03636d;
+  font-size: 14px;
+  margin: 10px 0;
+}
+</style>

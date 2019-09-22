@@ -12,8 +12,8 @@
     "
   >
     <template v-slot="{ result: { loading, error, data } }">
-      <div id="app">
-        <h1>Shopping List 🛒</h1>
+      <div class="page">
+        <div class="heading">Shopping List 🛒</div>
         <ShoppingList :items="data.items" />
       </div>
     </template>
@@ -29,3 +29,21 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.page {
+  max-width: 400px;
+  margin: 0 auto;
+  line-height: 1.4;
+  background: white;
+  height: 700px;
+  box-shadow: 5em;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.heading {
+  font-size: 25px;
+  font-weight: 300;
+}
+</style>

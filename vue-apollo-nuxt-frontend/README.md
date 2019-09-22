@@ -1,6 +1,6 @@
-# vueapp
+# Nuxt.js app
 
-> My priceless Nuxt.js project
+This example implements the app with [Nuxt.js](https://nuxtjs.org)
 
 ## Build Setup
 
@@ -18,5 +18,3 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).

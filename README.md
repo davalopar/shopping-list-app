@@ -1,14 +1,11 @@
 # Shopping list app
 
-Example app using the tech stack:
+## Example app used to play around with:
 
-Backend
+Frontend: Vue, Nuxt.js
 
-- Nexus
-- Prisma
-- GraphQL Apollo server
+Backend: Nexus, Prisma, GraphQL Apollo server
 
-Frontend
+## Run app locally
 
-- Vue
-- Nuxt.js
+Follow the READMEs in the directories - first the backend then the frontend.

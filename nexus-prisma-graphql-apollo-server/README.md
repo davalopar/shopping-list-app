@@ -1,6 +1,6 @@
 # GraphQL Apollo Server Example
 
-This example implements a **GraphQL server with TypeScript** based on Prisma, [apollo-server](https://www.apollographql.com/docs/apollo-server/) and [GraphQL Nexus](https://graphql-nexus.com/). The DB is PostgresQL.
+This example implements a **GraphQL server with TypeScript** based on Prisma, [apollo-server](https://www.apollographql.com/docs/apollo-server/) and [GraphQL Nexus](https://graphql-nexus.com/). The DB is PostgreSQL.
 
 ## How to use
 

@@ -1,12 +1,12 @@
 # Shopping list app
 
-![Screenshot](/screenshot.png)
+![Demo](/demo.gif)
 
 ## Example app playing around with:
 
 Frontend: TypeScript, Vue, Nuxt.js
 
-Backend: TypeScript, Nexus, Prisma, GraphQL Apollo server, PostgresQL
+Backend: TypeScript, Nexus, Prisma, GraphQL Apollo server, PostgreSQL
 
 ## Run app locally
 
